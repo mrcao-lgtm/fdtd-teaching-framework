@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.DS_Store
+*.swp
+*.swo
+
+# Data / outputs (keep code, not generated data)
+data/
+*.npy
+*.h5
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+venv/
+.venv/
