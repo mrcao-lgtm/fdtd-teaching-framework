@@ -1,23 +1,23 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.so
-.DS_Store
-*.swp
-*.swo
-
-# Data / outputs (keep code, not generated data)
-data/
-*.npy
-*.h5
-
-# IDE
+### AL ###
+#Template for AL projects for Dynamics 365 Business Central
+#launch.json folder
 .vscode/
-.idea/
-
-# Environment
-.env
-venv/
-.venv/
+#Cache folder
+.alcache/
+#Symbols folder
+.alpackages/
+#Snapshots folder
+.snapshots/
+#Testing Output folder
+.output/
+#Extension App-file
+*.app
+#Rapid Application Development File
+rad.json
+#Translation Base-file
+*.g.xlf
+#License-files
+*.bclicense
+*.flf
+#Test results file
+TestResults.xml
