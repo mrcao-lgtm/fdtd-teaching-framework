@@ -36,12 +36,10 @@ python3 run_convergence.py
 ```
 code/
 ├── fdtd_2d_tm.py            # Core FDTD solver + all scenario runners
-├── common_utils.py          # Shared utility functions
-├── generate_figures.py      # Figure generation pipeline
-├── run_convergence.py       # Convergence analysis
-├── compute_convergence_ci.py# CI calculation for convergence exponent
-├── measure_quantities.py    # Physical quantity measurements
-├── measure_transmission_fast.py # Transmission coefficient measurement
+|├── generate_figures.py      # Figure generation pipeline
+|├── run_convergence.py       # Convergence analysis
+|├── measure_quantities.py    # Physical quantity measurements
+|├── measure_transmission_fast.py # Transmission coefficient measurement
 ├── requirements.txt         # Python dependencies
 ├── README.md                # This file
 └── LICENSE                  # MIT License
