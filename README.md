@@ -68,6 +68,10 @@ def run_my_scenario():
     return result
 ```
 
+## Author
+
+Xinghuan Cao, Department of Fundamental Courses, Ma'anshan University, Maanshan, China (ORCID: 0009-0008-4489-9763)
+
 ## License
 
 MIT License — free to use, modify, and distribute.
